@@ -1,19 +1,20 @@
-# AMARNA — Image credits and reuse notes
+# AMARNA — Image sources and credits
 
-This project hotlinks photographs hosted by Wikimedia Commons rather than bundling copies. The license terms apply to each specific file. Keep these credits with the project and re-check the Commons file page before publishing.
+Photographs in the website are loaded from Wikimedia Commons. This project hotlinks the source images; the files are not bundled locally. Before public promotion or redistribution, revisit every file page and follow the precise license and attribution terms shown there. Any crop, color treatment, or other adaptation should be disclosed where required by the applicable license.
 
-1. **North Palace at Tell el-Amarna** — photo by Einsamer Schütze, Wikimedia Commons. Available under CC BY-SA 3.0 (also GFDL). Used for the hero, palace card and closing scene. File page: https://commons.wikimedia.org/wiki/File:Amarna_North_Palace_01.JPG
-2. **Small Temple of Aten at Tell el-Amarna** — photo by Einsamer Schütze, Wikimedia Commons. Available under CC BY-SA 3.0 (also GFDL). Used for the story image and small-temple card. File page: https://commons.wikimedia.org/wiki/File:Small_aten_temple_03.JPG
-3. **Aten temple, Meryre's tomb** — source recorded on Wikimedia Commons as the Tomb of Meryre; image is in the public domain. Used as a historic depiction in the Great Temple card; it is not a modern photograph of the ruins. File page: https://commons.wikimedia.org/wiki/File:Aten_temple,_Meryre%27s_tomb.jpg
-4. **Tomb entrance, Amarna Grab 26** — photo by Olaf Tausch. CC BY 3.0 (also GFDL). Used in the royal-tomb card. File page: https://commons.wikimedia.org/wiki/File:Amarna_Grab_26_04.jpg
-5. **Boundary stela U** — photo by Einsamer Schütze. CC BY-SA 3.0 (also GFDL). Used in the boundary-stelae card. File page: https://commons.wikimedia.org/wiki/File:Amarna_boundary_stela_U_01.JPG
-6. **Amarna tablet** — photo by Udimu. CC BY-SA 3.0 (also GFDL). Used in the Amarna Letters section. File page: https://commons.wikimedia.org/wiki/File:Amarna_tablet.jpg
-7. **Central City Amarna (IV)** — photo by Kyera Giannini, published by the Institute for the Study of the Ancient World / Ancient World Image Bank. Check the licensing and permissions details on the file page before reuse. File page: https://commons.wikimedia.org/wiki/File:Central_City_Amarna_(IV).jpg
-8. **Meryre, High Priest of Aten / Tomb 4** — photo by Ankeset, Wikimedia Commons. The file page identifies a CC BY-SA 4.0 license. Used for the nobles' tombs card. File page: https://commons.wikimedia.org/wiki/File:Meryre_Amarna_High_priest_of_the_Aten.jpg
+1. **North Palace at Tell el-Amarna** — photo by Einsamer Schütze, Wikimedia Commons. The file page lists CC BY-SA 3.0 (and GFDL). Used in the hero and closing section. https://commons.wikimedia.org/wiki/File:Amarna_North_Palace_01.JPG
+2. **Small Temple of Aten at Tell el-Amarna** — photo by Einsamer Schütze, Wikimedia Commons. The file page lists CC BY-SA 3.0 (and GFDL). Used in the story section and Small Temple card. https://commons.wikimedia.org/wiki/File:Small_aten_temple_03.JPG
+3. **Aten temple, Meryre's tomb** — historical depiction associated with the Tomb of Meryre; this is not a current photograph of the Great Temple ruins. Review its specific page and stated public-domain status before reuse. https://commons.wikimedia.org/wiki/File:Aten_temple,_Meryre%27s_tomb.jpg
+4. **Meryre, High Priest of Aten / Tomb 4** — Wikimedia Commons file page identifies a CC BY-SA 4.0 license. Used in the Tombs of the Nobles card. https://commons.wikimedia.org/wiki/File:Meryre_Amarna_High_priest_of_the_Aten.jpg
+5. **Amarna tomb photograph** — photo credited to Olaf Tausch on Wikimedia Commons; the page lists CC BY 3.0 (and GFDL). Used as a visual reference for the Royal Tomb card. https://commons.wikimedia.org/wiki/File:Amarna_Grab_26_04.jpg
+6. **Boundary stela U** — photo by Einsamer Schütze, Wikimedia Commons. The file page lists CC BY-SA 3.0. Used in the Boundary Stelae card. https://commons.wikimedia.org/wiki/File:Amarna_boundary_stela_U_01.JPG
+7. **Central City Amarna (IV)** — image page hosted on Wikimedia Commons; check the license and source attribution on the original page before reuse. Used for the City Remains card. https://commons.wikimedia.org/wiki/File:Central_City_Amarna_(IV).jpg
+8. **Amarna tablet** — photo by Udimu, Wikimedia Commons. The file page lists CC BY-SA 3.0. Used in the Amarna Letters section. https://commons.wikimedia.org/wiki/File:Amarna_tablet.jpg
 
-## License reminders
+## Logo handling
 
-- **CC BY** requires appropriate attribution and a license link; state if changes were made.
-- **CC BY-SA** has the same attribution requirement and adds share-alike conditions for adaptations.
-- Always follow the precise license displayed on the original Commons page.
-- Google Fonts are loaded from Google Fonts; the chosen font families are listed in the HTML.
+The original beige rectangular logo is not placed as a full image in the header. The header uses an extracted transparent emblem alongside HTML-rendered `AMARNA` lettering and tagline so it integrates with the dark navigation. `assets/amarna-emblem.png` is a transparent visual adaptation of the emblem supplied by the project owner. Use it only in accordance with the campaign's own branding decisions.
+
+## Fonts
+
+Alexandria, Cormorant Garamond and Manrope are loaded from Google Fonts. Internet access is required for those fonts and for the remotely hosted photos.
