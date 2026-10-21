@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171916">
+  <meta name="description" content="AMARNA — اكتشف شوارع التاريخ. رحلة لاكتشاف تل العمارنة وحكاية مدينة آخت آتون.">
+  <title>AMARNA — اكتشف شوارع التاريخ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-ar="تخطَّ إلى المحتوى" data-en="Skip to content">تخطَّ إلى المحتوى</a>
+  <div class="scroll-progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="AMARNA home">
+      <svg class="brand-mark" viewBox="0 0 60 45" aria-hidden="true">
+        <path d="M6 37 A24 24 0 0 1 54 37" fill="none" stroke="currentColor" stroke-width="1.4"/>
+        <path d="M13 37 A17 17 0 0 1 47 37" fill="none" stroke="currentColor" stroke-width="1.1"/>
+        <path d="M30 7 V34 M17 15 L25 32 M43 15 L35 32 M8 26 L22 35 M52 26 L38 35" fill="none" stroke="currentColor" stroke-width="1.1"/>
+        <circle cx="30" cy="17" r="3" fill="currentColor"/>
+      </svg>
+      <span class="brand-word">AMARNA</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Open menu">
+      <span></span><span></span>
+    </button>
+
+    <nav class="primary-nav" id="primaryNav" aria-label="Primary navigation">
+      <a href="#story" data-ar="الحكاية" data-en="The Story">الحكاية</a>
+      <a href="#landmarks" data-ar="المعالم" data-en="Landmarks">المعالم</a>
+      <a href="#letters" data-ar="رسائل الماضي" data-en="Letters from the Past">رسائل الماضي</a>
+      <a href="#team" data-ar="فريق الحملة" data-en="Our Team">فريق الحملة</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="language-toggle" id="languageToggle" type="button" aria-label="Switch language"><span>EN</span><i></i><span class="active">AR</span></button>
+      <a class="header-cta" href="#story"><span data-ar="ابدأ الرحلة" data-en="Start the journey">ابدأ الرحلة</span><span class="cta-arrow" aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="heroTitle">
+      <img class="hero-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Amarna_North_Palace_01.JPG/1920px-Amarna_North_Palace_01.JPG" alt="بقايا القصر الشمالي في تل العمارنة" fetchpriority="high">
+      <div class="hero-shade"></div>
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="hero-meta"><span data-ar="المنيا · مصر" data-en="Minya · Egypt">المنيا · مصر</span><span class="meta-line"></span><span data-ar="رحلة عبر الزمن" data-en="A journey through time">رحلة عبر الزمن</span></div>
+      <div class="hero-content">
+        <div class="hero-symbol" aria-hidden="true">
+          <svg viewBox="0 0 180 70"><path d="M18 62 A72 72 0 0 1 162 62"/><path d="M34 62 A56 56 0 0 1 146 62"/><path d="M90 6 V62 M54 20 L76 61 M126 20 L104 61 M25 42 L65 63 M155 42 L115 63"/><circle cx="90" cy="28" r="5"/></svg>
+        </div>
+        <p class="eyebrow hero-eyebrow" data-ar="اكتشف مدينةً صنعت حكايتها بنفسها" data-en="Discover a city that made its own story">اكتشف مدينةً صنعت حكايتها بنفسها</p>
+        <h1 id="heroTitle">AMARNA</h1>
+        <h2 data-ar="اكتشف شوارع التاريخ" data-en="Discover the Streets of History">اكتشف شوارع التاريخ</h2>
+        <p class="hero-lead" data-ar="هنا، لكل حجر حكاية ولكل طريق أثر من الماضي." data-en="Here, every stone tells a story, and every path carries traces of the past.">هنا، لكل حجر حكاية ولكل طريق أثر من الماضي.</p>
+        <p class="hero-description" data-ar="وسط صحراء المنيا، تقف بقايا مدينة تحمل واحدة من أكثر الحكايات تميزًا في التاريخ المصري القديم. هنا تقع تل العمارنة، المدينة التي بناها الملك إخناتون لتكون عاصمة جديدة ومركزًا لعبادة آتون." data-en="Amid the desert of Minya stand the remains of a city with one of the most distinctive stories in ancient Egyptian history. This is Tell el-Amarna, the city Akhenaten built as a new capital and a centre for the worship of Aten.">وسط صحراء المنيا، تقف بقايا مدينة تحمل واحدة من أكثر الحكايات تميزًا في التاريخ المصري القديم. هنا تقع تل العمارنة، المدينة التي بناها الملك إخناتون لتكون عاصمة جديدة ومركزًا لعبادة آتون.</p>
+        <a class="button button-gold" href="#story"><span data-ar="اكتشف تل العمارنة" data-en="Discover Tell el-Amarna">اكتشف تل العمارنة</span><span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero-bottom"><span class="hero-bottom-caption" data-ar="مدينة آخت آتون · الأسرة الثامنة عشرة" data-en="Akhetaten · 18th Dynasty">مدينة آخت آتون · الأسرة الثامنة عشرة</span><a class="scroll-cue" href="#story"><span data-ar="انزل لاكتشاف الحكاية" data-en="Scroll to explore the story">انزل لاكتشاف الحكاية</span><span class="scroll-cue-line"></span></a><span class="hero-index">01 <span>/</span> 05</span></div>
+      <div class="hero-vertical-label" aria-hidden="true">A K H E T A T E N</div>
+    </section>
+
+    <section class="intro section-light" id="story">
+      <div class="section-kicker"><span>01</span><i></i><span data-ar="اكتشف تل العمارنة" data-en="Discover Tell el-Amarna">اكتشف تل العمارنة</span></div>
+      <div class="intro-grid">
+        <div class="intro-heading reveal">
+          <p class="eyebrow" data-ar="حكاية من قلب مصر" data-en="A story from the heart of Egypt">حكاية من قلب مصر</p>
+          <h2 data-ar="مدينة وُلدت من فكرة، وتركت أثرًا لا يُنسى." data-en="A city born from an idea, leaving an unforgettable mark.">مدينة وُلدت من فكرة، وتركت أثرًا لا يُنسى.</h2>
+          <div class="ornament-rule"><span></span><span></span><span></span></div>
+        </div>
+        <div class="intro-copy reveal">
+          <p class="intro-journey" data-ar="انطلق معنا في رحلة لاكتشاف آثار المدينة، وتأمل تفاصيلها، وتعرّف على حكاية مكان ما زال يحتفظ بأسرار من حياة المصريين القدماء." data-en="Join us on a journey to explore the city’s remains, study its details, and discover a place that still holds secrets of ancient Egyptian life.">انطلق معنا في رحلة لاكتشاف آثار المدينة، وتأمل تفاصيلها، وتعرّف على حكاية مكان ما زال يحتفظ بأسرار من حياة المصريين القدماء.</p>
+          <p data-ar="تقع تل العمارنة على الضفة الشرقية لنهر النيل بمحافظة المنيا، وهي موقع مدينة «آخت آتون»، التي أسسها الملك إخناتون من الأسرة الثامنة عشرة خلال القرن الرابع عشر قبل الميلاد." data-en="Tell el-Amarna lies on the east bank of the Nile in Minya Governorate. It is the site of Akhetaten, founded by King Akhenaten of the Eighteenth Dynasty during the fourteenth century BCE.">تقع تل العمارنة على الضفة الشرقية لنهر النيل بمحافظة المنيا، وهي موقع مدينة «آخت آتون»، التي أسسها الملك إخناتون من الأسرة الثامنة عشرة خلال القرن الرابع عشر قبل الميلاد.</p>
+          <p data-ar="اختار إخناتون هذا الموقع لتأسيس عاصمة جديدة ترتبط بالعبادة التي ركزت على الإله آتون. وشهدت المدينة بناء المعابد والقصور والمناطق السكنية والمقابر، قبل أن يهجرها سكانها بعد وفاة الملك." data-en="Akhenaten chose this location for a new capital connected to a religious focus on Aten. Temples, palaces, residential areas and tombs were built here before the city was abandoned after the king’s death.">اختار إخناتون هذا الموقع لتأسيس عاصمة جديدة ترتبط بالعبادة التي ركزت على الإله آتون. وشهدت المدينة بناء المعابد والقصور والمناطق السكنية والمقابر، قبل أن يهجرها سكانها بعد وفاة الملك.</p>
+          <p data-ar="ورغم قِصر الفترة التي ظلت فيها العاصمة قائمة، فإن آثارها تقدم نافذة مهمة لفهم الحياة الدينية والسياسية والعمرانية في مصر القديمة." data-en="Although the capital existed for a relatively short time, its remains provide an important window into religious, political and urban life in ancient Egypt.">ورغم قِصر الفترة التي ظلت فيها العاصمة قائمة، فإن آثارها تقدم نافذة مهمة لفهم الحياة الدينية والسياسية والعمرانية في مصر القديمة.</p>
+          <a class="text-link" href="#landmarks"><span data-ar="تعرّف على المعالم" data-en="Meet the landmarks">تعرّف على المعالم</span><span aria-hidden="true">↙</span></a>
+        </div>
+      </div>
+      <div class="intro-image reveal">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Small_aten_temple_03.JPG/1280px-Small_aten_temple_03.JPG" alt="بقايا أحد معابد آتون في تل العمارنة" loading="lazy">
+        <div class="image-caption"><span data-ar="آثار من مدينة آخت آتون" data-en="Remains of ancient Akhetaten">آثار من مدينة آخت آتون</span><span>27°39′N — 30°54′E</span></div>
+        <div class="image-stamp" aria-hidden="true"><span>AMARNA</span><span>14TH CENTURY BCE</span></div>
+      </div>
+    </section>
+
+    <section class="landmarks section-dark" id="landmarks">
+      <div class="section-kicker section-kicker-light"><span>02</span><i></i><span data-ar="معالم تحكي التاريخ" data-en="Landmarks that tell history">معالم تحكي التاريخ</span></div>
+      <div class="section-heading-row reveal">
+        <div><p class="eyebrow" data-ar="كل زاوية تحمل دليلًا" data-en="Every corner holds a clue">كل زاوية تحمل دليلًا</p><h2 data-ar="سبع محطات في قلب الحكاية." data-en="Seven landmarks at the heart of the story.">سبع محطات في قلب الحكاية.</h2></div>
+        <p class="section-intro" data-ar="تأمل تفاصيل المدينة، من ساحات المعابد إلى المقابر الصخرية، واكتشف كيف تروي الآثار جوانب مختلفة من حياة آخت آتون." data-en="Explore the city’s details, from temple courts to rock-cut tombs, and discover how its remains reveal different sides of life in Akhetaten.">تأمل تفاصيل المدينة، من ساحات المعابد إلى المقابر الصخرية، واكتشف كيف تروي الآثار جوانب مختلفة من حياة آخت آتون.</p>
+      </div>
+
+      <div class="landmarks-grid">
+        <article class="landmark-card landmark-card-feature reveal">
+          <div class="landmark-image"><img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Aten_temple%2C_Meryre%27s_tomb.jpg" alt="تصوير أثري لمعبد آتون ضمن مناظر مقبرة مري رع" loading="lazy"><span class="landmark-number">01</span><span class="image-corner" aria-hidden="true">↗</span></div>
+          <div class="landmark-copy"><p class="landmark-type" data-ar="العمارة الدينية" data-en="Religious Architecture">العمارة الدينية</p><h3 data-ar="معبد آتون الكبير" data-en="The Great Temple of Aten">معبد آتون الكبير</h3><p data-ar="كان معبد آتون الكبير من أهم المنشآت الدينية في مدينة آخت آتون، وخُصص لعبادة آتون. ضم المجمع مساحات مفتوحة ومباني حجرية ومناطق لتقديم القرابين، وتعكس بقاياه حجم الدور الذي لعبه المعبد في الحياة الدينية للمدينة." data-en="The Great Temple of Aten was one of the most important religious complexes in Akhetaten, dedicated to the worship of Aten. It included open courts, stone structures and offering areas; its remains reflect the temple’s central role in the city’s religious life.">كان معبد آتون الكبير من أهم المنشآت الدينية في مدينة آخت آتون، وخُصص لعبادة آتون. ضم المجمع مساحات مفتوحة ومباني حجرية ومناطق لتقديم القرابين، وتعكس بقاياه حجم الدور الذي لعبه المعبد في الحياة الدينية للمدينة.</p></div>
+        </article>
+        <article class="landmark-card reveal">
+          <div class="landmark-image"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Small_aten_temple_03.JPG/1280px-Small_aten_temple_03.JPG" alt="بقايا معبد آتون الصغير في تل العمارنة" loading="lazy"><span class="landmark-number">02</span><span class="image-corner" aria-hidden="true">↗</span></div>
+          <div class="landmark-copy"><p class="landmark-type" data-ar="العبادة والطقوس" data-en="Worship & Ritual">العبادة والطقوس</p><h3 data-ar="معبد آتون الصغير" data-en="The Small Temple of Aten">معبد آتون الصغير</h3><p data-ar="يقع معبد آتون الصغير ضمن المنطقة المركزية للمدينة، وكان أحد المعابد الرئيسية المرتبطة بعبادة آتون. وتكشف بقاياه عن ساحات متتابعة ومناطق لتقديم القرابين، لتمنحنا تصورًا عن الطقوس الدينية التي كانت تُقام داخل المدينة." data-en="The Small Temple of Aten stood in the city’s central area and was one of the principal temples associated with Aten. Its remains reveal successive courts and offering areas, helping us imagine the religious rituals once practised here.">يقع معبد آتون الصغير ضمن المنطقة المركزية للمدينة، وكان أحد المعابد الرئيسية المرتبطة بعبادة آتون. وتكشف بقاياه عن ساحات متتابعة ومناطق لتقديم القرابين، لتمنحنا تصورًا عن الطقوس الدينية التي كانت تُقام داخل المدينة.</p></div>
+        </article>
+        <article class="landmark-card reveal">
+          <div class="landmark-image"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Amarna_North_Palace_01.JPG/1280px-Amarna_North_Palace_01.JPG" alt="آثار القصر الشمالي في تل العمارنة" loading="lazy"><span class="landmark-number">03</span><span class="image-corner" aria-hidden="true">↗</span></div>
+          <div class="landmark-copy"><p class="landmark-type" data-ar="الحكم والحياة الملكية" data-en="Royal Life & Government">الحكم والحياة الملكية</p><h3 data-ar="القصور الملكية" data-en="The Royal Palaces">القصور الملكية</h3><p data-ar="لم تكن آخت آتون مدينة للعبادة فقط، بل كانت مركزًا للحكم والإدارة أيضًا. فقد ضمت القصر الكبير وبيت الملك ومباني أخرى مرتبطة بالحياة الملكية وإدارة شؤون الدولة. وتساعد بقايا هذه المنشآت في إعادة تصور شكل العاصمة وطبيعة الحياة داخلها." data-en="Akhetaten was more than a religious centre: it was also a seat of government and administration. The city included the Great Palace, the King’s House and other buildings linked to royal life and state affairs. Their remains help us imagine the capital and life within it.">لم تكن آخت آتون مدينة للعبادة فقط، بل كانت مركزًا للحكم والإدارة أيضًا. فقد ضمت القصر الكبير وبيت الملك ومباني أخرى مرتبطة بالحياة الملكية وإدارة شؤون الدولة. وتساعد بقايا هذه المنشآت في إعادة تصور شكل العاصمة وطبيعة الحياة داخلها.</p></div>
+        </article>
+        <article class="landmark-card reveal">
+          <div class="landmark-image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Meryre_Amarna_High_priest_of_the_Aten.jpg/1280px-Meryre_Amarna_High_priest_of_the_Aten.jpg" alt="تفاصيل من مقابر النبلاء في العمارنة" loading="lazy"><span class="landmark-number">04</span><span class="image-corner" aria-hidden="true">↗</span></div>
+          <div class="landmark-copy"><p class="landmark-type" data-ar="النقوش والحكايات" data-en="Reliefs & Stories">النقوش والحكايات</p><h3 data-ar="مقابر النبلاء" data-en="The Nobles’ Tombs">مقابر النبلاء</h3><p data-ar="نُحتت مقابر عدد من كبار رجال الدولة في الصخور المحيطة بالمدينة، وتتميز بعض هذه المقابر بالنقوش والمناظر التي تصور الملك والأسرة الملكية والمراسم الدينية ومظاهر الحياة في عصر إخناتون. وتُعد هذه النقوش مصدرًا مهمًا لفهم جوانب من المجتمع والحياة الملكية في تلك الفترة." data-en="The tombs of senior officials were cut into the surrounding cliffs. Some contain reliefs depicting the king, the royal family, religious ceremonies and aspects of life in Akhenaten’s time. These scenes are an important source for understanding society and royal life in this period.">نُحتت مقابر عدد من كبار رجال الدولة في الصخور المحيطة بالمدينة، وتتميز بعض هذه المقابر بالنقوش والمناظر التي تصور الملك والأسرة الملكية والمراسم الدينية ومظاهر الحياة في عصر إخناتون. وتُعد هذه النقوش مصدرًا مهمًا لفهم جوانب من المجتمع والحياة الملكية في تلك الفترة.</p></div>
+        </article>
+        <article class="landmark-card reveal">
+          <div class="landmark-image"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Amarna_Grab_26_04.jpg/1280px-Amarna_Grab_26_04.jpg" alt="مدخل المقبرة الملكية في تل العمارنة" loading="lazy"><span class="landmark-number">05</span><span class="image-corner" aria-hidden="true">↗</span></div>
+          <div class="landmark-copy"><p class="landmark-type" data-ar="داخل الجروف الصخرية" data-en="Within the Cliffs">داخل الجروف الصخرية</p><h3 data-ar="المقبرة الملكية" data-en="The Royal Tomb">المقبرة الملكية</h3><p data-ar="في عمق أحد الأودية بين الجروف الصخرية شرق المدينة تقع المقبرة الملكية، وهي من أبرز المواقع المرتبطة بتاريخ إخناتون. ويكشف موقعها داخل الجبل عن جانب مختلف من المشهد الأثري للعمارنة، بعيدًا عن بقايا المعابد والقصور في السهل." data-en="Deep within a wadi among the cliffs east of the city lies the Royal Tomb, one of the most notable sites associated with Akhenaten. Its position inside the mountain reveals another side of Amarna’s archaeological landscape, beyond the temples and palaces on the plain.">في عمق أحد الأودية بين الجروف الصخرية شرق المدينة تقع المقبرة الملكية، وهي من أبرز المواقع المرتبطة بتاريخ إخناتون. ويكشف موقعها داخل الجبل عن جانب مختلف من المشهد الأثري للعمارنة، بعيدًا عن بقايا المعابد والقصور في السهل.</p></div>
+        </article>
+        <article class="landmark-card reveal">
+          <div class="landmark-image"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Amarna_boundary_stela_U_01.JPG/960px-Amarna_boundary_stela_U_01.JPG" alt="لوحة الحدود U المنحوتة في صخور العمارنة" loading="lazy"><span class="landmark-number">06</span><span class="image-corner" aria-hidden="true">↗</span></div>
+          <div class="landmark-copy"><p class="landmark-type" data-ar="علامات على الجبل" data-en="Signs on the Cliffs">علامات على الجبل</p><h3 data-ar="لوحات الحدود" data-en="The Boundary Stelae">لوحات الحدود</h3><p data-ar="تنتشر لوحات حدودية منحوتة في الصخور المحيطة بآخت آتون، وسجل الملك إخناتون عليها نصوصًا تعلن حدود المدينة وتوضح رؤيته لتأسيس عاصمته الجديدة. وتمنح هذه اللوحات الزائر فرصة للتعرف على الكيفية التي حدد بها الملك نطاق مدينته ومكانتها." data-en="Boundary stelae were carved into the rocks around Akhetaten. On them, Akhenaten recorded texts declaring the city’s limits and explaining his vision for the new capital. They offer a glimpse of how the king defined the city’s boundaries and significance.">تنتشر لوحات حدودية منحوتة في الصخور المحيطة بآخت آتون، وسجل الملك إخناتون عليها نصوصًا تعلن حدود المدينة وتوضح رؤيته لتأسيس عاصمته الجديدة. وتمنح هذه اللوحات الزائر فرصة للتعرف على الكيفية التي حدد بها الملك نطاق مدينته ومكانتها.</p></div>
+        </article>
+        <article class="landmark-card landmark-card-wide reveal">
+          <div class="landmark-image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Central_City_Amarna_%28IV%29.jpg/1280px-Central_City_Amarna_%28IV%29.jpg" alt="بقايا مبانٍ من المنطقة المركزية في مدينة العمارنة" loading="lazy"><span class="landmark-number">07</span><span class="image-corner" aria-hidden="true">↗</span></div>
+          <div class="landmark-copy"><p class="landmark-type" data-ar="تفاصيل الحياة اليومية" data-en="Everyday Life">تفاصيل الحياة اليومية</p><h3 data-ar="بقايا المدينة والحياة اليومية" data-en="City Remains & Everyday Life">بقايا المدينة والحياة اليومية</h3><p data-ar="خلف بقايا المعابد والقصور، تكشف أساسات المنازل والشوارع والمباني الإدارية عن مدينة عاش وعمل فيها الناس، ومارسوا أنشطتهم اليومية. فتل العمارنة ليست مجرد مجموعة من الآثار، بل سجل مفتوح يساعدنا على تخيل تفاصيل الحياة داخل عاصمة مصرية قديمة." data-en="Beyond the temples and palaces, house foundations, streets and administrative buildings reveal a city where people lived, worked and went about their days. Tell el-Amarna is not just a collection of ruins; it is an open record that helps us imagine life in an ancient Egyptian capital.">خلف بقايا المعابد والقصور، تكشف أساسات المنازل والشوارع والمباني الإدارية عن مدينة عاش وعمل فيها الناس، ومارسوا أنشطتهم اليومية. فتل العمارنة ليست مجرد مجموعة من الآثار، بل سجل مفتوح يساعدنا على تخيل تفاصيل الحياة داخل عاصمة مصرية قديمة.</p></div>
+        </article>
+      </div>
+      <p class="image-note" data-ar="ملاحظة: الصور توثيقية من موقع تل العمارنة أو من مواد أثرية مرتبطة بها، وقد لا تمثل كل صورة المعلم المذكور بشكل مباشر. راجع صفحة مصادر الصور قبل إعادة الاستخدام." data-en="Note: These documentary images show Tell el-Amarna or related archaeological material; not every image necessarily depicts the exact landmark described. Consult the image credits before reuse.">ملاحظة: الصور توثيقية من موقع تل العمارنة أو من مواد أثرية مرتبطة بها، وقد لا تمثل كل صورة المعلم المذكور بشكل مباشر. راجع صفحة مصادر الصور قبل إعادة الاستخدام.</p>
+    </section>
+
+    <section class="letters section-paper" id="letters">
+      <div class="letters-bg-mark" aria-hidden="true">𓇳</div>
+      <div class="section-kicker"><span>03</span><i></i><span data-ar="رسالة من الماضي" data-en="A Message from the Past">رسالة من الماضي</span></div>
+      <div class="letters-grid">
+        <div class="letters-copy reveal">
+          <p class="eyebrow" data-ar="رسائل تل العمارنة" data-en="The Amarna Letters">رسائل تل العمارنة</p>
+          <h2 data-ar="رسائل عَبَرت الزمن، وكشفت عالمًا كاملًا." data-en="Letters that crossed time and revealed a wider world.">رسائل عَبَرت الزمن، وكشفت عالمًا كاملًا.</h2>
+          <p data-ar="من أهم الاكتشافات المرتبطة بالمدينة مجموعة الألواح المعروفة باسم «رسائل تل العمارنة»، وهي ألواح مكتوبة بالخط المسماري تضم مراسلات دبلوماسية بين البلاط المصري وحكام وملوك في مناطق مختلفة من الشرق الأدنى القديم." data-en="Among the most important discoveries associated with the city is a collection of tablets known as the Amarna Letters. Written in cuneiform, they contain diplomatic correspondence between the Egyptian court and rulers across the ancient Near East.">من أهم الاكتشافات المرتبطة بالمدينة مجموعة الألواح المعروفة باسم «رسائل تل العمارنة»، وهي ألواح مكتوبة بالخط المسماري تضم مراسلات دبلوماسية بين البلاط المصري وحكام وملوك في مناطق مختلفة من الشرق الأدنى القديم.</p>
+          <p data-ar="وتساعد هذه الرسائل الباحثين على فهم العلاقات السياسية والدبلوماسية في تلك الفترة، وتكشف أن آخت آتون ترتبط بحكاية أكبر من حدودها الجغرافية؛ حكاية عن مصر وعلاقاتها بالعالم المحيط بها." data-en="These letters help researchers understand the political and diplomatic relationships of the era. They show that Akhetaten belongs to a story extending far beyond its geographical boundaries: Egypt’s connections with the world around it.">وتساعد هذه الرسائل الباحثين على فهم العلاقات السياسية والدبلوماسية في تلك الفترة، وتكشف أن آخت آتون ترتبط بحكاية أكبر من حدودها الجغرافية؛ حكاية عن مصر وعلاقاتها بالعالم المحيط بها.</p>
+          <div class="letter-fact"><span class="letter-fact-symbol">𓏞</span><div><strong data-ar="لغة الدبلوماسية" data-en="The Language of Diplomacy">لغة الدبلوماسية</strong><span data-ar="ألواح مسمارية · مراسلات من القرن الرابع عشر ق.م." data-en="Cuneiform tablets · Correspondence from the 14th century BCE">ألواح مسمارية · مراسلات من القرن الرابع عشر ق.م.</span></div></div>
+        </div>
+        <figure class="letter-visual reveal">
+          <div class="letter-image-frame"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Amarna_tablet.jpg" alt="لوح من رسائل تل العمارنة مكتوب بالخط المسماري" loading="lazy"><span class="letter-image-overlay"></span><span class="vertical-archive" data-ar="أرشيف من العالم القديم" data-en="ARCHIVE OF THE ANCIENT WORLD">أرشيف من العالم القديم</span></div>
+          <figcaption><span data-ar="لوح من رسائل تل العمارنة — المتحف البريطاني" data-en="An Amarna letter tablet — British Museum">لوح من رسائل تل العمارنة — المتحف البريطاني</span><a href="https://commons.wikimedia.org/wiki/File:Amarna_tablet.jpg" target="_blank" rel="noopener noreferrer" data-ar="مصدر الصورة ↗" data-en="Image source ↗">مصدر الصورة ↗</a></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="closing-banner" aria-labelledby="closingTitle">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Amarna_North_Palace_01.JPG/1920px-Amarna_North_Palace_01.JPG" alt="مشهد واسع من آثار مدينة العمارنة" loading="lazy">
+      <div class="closing-overlay"></div>
+      <div class="closing-content reveal">
+        <p class="eyebrow" data-ar="حكاية لم تنتهِ" data-en="A story not yet finished">حكاية لم تنتهِ</p>
+        <h2 id="closingTitle" data-ar="قد تصمت الحجارة، لكن آثارها تظل شاهدة." data-en="Stones may fall silent, but their traces remain. ">قد تصمت الحجارة، لكن آثارها تظل شاهدة.</h2>
+        <p data-ar="قد تصمت الحجارة، لكن آثارها تظل شاهدة على من عاشوا هنا، وعلى مدينة صنعت لنفسها مكانًا مختلفًا في التاريخ." data-en="The stones may be silent, but their traces bear witness to the people who lived here—and to a city that made a distinct place for itself in history.">قد تصمت الحجارة، لكن آثارها تظل شاهدة على من عاشوا هنا، وعلى مدينة صنعت لنفسها مكانًا مختلفًا في التاريخ.</p>
+        <span class="closing-signature">AMARNA <i>—</i> <span data-ar="اكتشف شوارع التاريخ" data-en="Discover the Streets of History">اكتشف شوارع التاريخ</span></span>
+        <a class="button button-outline" href="#team"><span data-ar="تعرّف على فريق الحملة" data-en="Meet the campaign team">تعرّف على فريق الحملة</span><span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="closing-side-note" data-ar="رحلة إلى الماضي، واكتشاف جديد في كل خطوة." data-en="A journey into the past, with something new at every step.">رحلة إلى الماضي، واكتشاف جديد في كل خطوة.</div>
+    </section>
+
+    <section class="team section-dark" id="team">
+      <div class="section-kicker section-kicker-light"><span>04</span><i></i><span data-ar="الأشخاص وراء الحكاية" data-en="The People Behind the Story">الأشخاص وراء الحكاية</span></div>
+      <div class="section-heading-row reveal">
+        <div><p class="eyebrow" data-ar="فريق AMARNA" data-en="The AMARNA Team">فريق AMARNA</p><h2 data-ar="الحكاية بتبدأ بناس تؤمن بيها." data-en="Every story begins with people who believe in it.">الحكاية بتبدأ بناس تؤمن بيها.</h2></div>
+        <p class="section-intro" data-ar="وراء كل رحلة اكتشاف فريق يجمعه الشغف بالتاريخ، والرغبة في تقديمه لجيل جديد بصورة أقرب وأجمل." data-en="Behind every journey of discovery is a team united by a passion for history and a desire to bring it closer to a new generation.">وراء كل رحلة اكتشاف فريق يجمعه الشغف بالتاريخ، والرغبة في تقديمه لجيل جديد بصورة أقرب وأجمل.</p>
+      </div>
+      <div class="team-grid">
+        <article class="team-card reveal"><div class="team-portrait"><span>MS</span><i>01</i></div><h3>Menna Saleh</h3><p data-ar="فريق AMARNA" data-en="AMARNA Team">فريق AMARNA</p></article>
+        <article class="team-card reveal"><div class="team-portrait"><span>MM</span><i>02</i></div><h3>Mahmoud Mohammed</h3><p data-ar="فريق AMARNA" data-en="AMARNA Team">فريق AMARNA</p></article>
+        <article class="team-card reveal"><div class="team-portrait"><span>AK</span><i>03</i></div><h3>Amr Khald</h3><p data-ar="فريق AMARNA" data-en="AMARNA Team">فريق AMARNA</p></article>
+        <article class="team-card reveal"><div class="team-portrait"><span>JT</span><i>04</i></div><h3>Jana Tarek</h3><p data-ar="فريق AMARNA" data-en="AMARNA Team">فريق AMARNA</p></article>
+        <article class="team-card reveal"><div class="team-portrait"><span>NM</span><i>05</i></div><h3>Nora Muhammed</h3><p data-ar="فريق AMARNA" data-en="AMARNA Team">فريق AMARNA</p></article>
+        <article class="team-card reveal"><div class="team-portrait"><span>SA</span><i>06</i></div><h3>Shrouk Ali</h3><p data-ar="فريق AMARNA" data-en="AMARNA Team">فريق AMARNA</p></article>
+        <article class="team-card reveal"><div class="team-portrait"><span>HM</span><i>07</i></div><h3>Habiba Mohsen</h3><p data-ar="فريق AMARNA" data-en="AMARNA Team">فريق AMARNA</p></article>
+        <article class="team-card reveal"><div class="team-portrait"><span>MM</span><i>08</i></div><h3>Malak Moamen</h3><p data-ar="فريق AMARNA" data-en="AMARNA Team">فريق AMARNA</p></article>
+        <article class="team-card reveal"><div class="team-portrait"><span>RR</span><i>09</i></div><h3>Rania Ragab</h3><p data-ar="فريق AMARNA" data-en="AMARNA Team">فريق AMARNA</p></article>
+        <article class="team-card reveal"><div class="team-portrait"><span>BA</span><i>10</i></div><h3>Basmala Ali</h3><p data-ar="فريق AMARNA" data-en="AMARNA Team">فريق AMARNA</p></article>
+      </div>
+      <div class="team-endline"><span></span><p data-ar="AMARNA — اكتشف شوارع التاريخ" data-en="AMARNA — Discover the Streets of History">AMARNA — اكتشف شوارع التاريخ</p><span></span></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="#top"><span>AMARNA</span><small data-ar="اكتشف شوارع التاريخ" data-en="Discover the Streets of History">اكتشف شوارع التاريخ</small></a>
+    <p data-ar="رحلة إلى الماضي، واكتشاف جديد في كل خطوة." data-en="A journey into the past, with something new at every step.">رحلة إلى الماضي، واكتشاف جديد في كل خطوة.</p>
+    <div class="footer-links"><a href="#story" data-ar="الحكاية" data-en="The Story">الحكاية</a><a href="#landmarks" data-ar="المعالم" data-en="Landmarks">المعالم</a><a href="#letters" data-ar="رسائل الماضي" data-en="Letters from the Past">رسائل الماضي</a><a href="#team" data-ar="فريق الحملة" data-en="Our Team">فريق الحملة</a><a href="IMAGE_CREDITS.md" target="_blank" rel="noopener noreferrer" data-ar="مصادر الصور" data-en="Image credits">مصادر الصور</a></div>
+    <span class="footer-copyright">© <span id="year"></span> AMARNA</span>
+  </footer>
+
+  <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+  <div class="cursor-ring" id="cursorRing" aria-hidden="true"><span data-ar="AMARNA" data-en="Explore">استكشف</span></div>
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">↑</button>
+  <noscript><div class="noscript-note">الموقع يعمل بشكل أفضل مع تفعيل JavaScript / Enable JavaScript for the full interactive experience.</div></noscript>
+</body>
+</html>
